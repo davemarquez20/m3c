@@ -161,4 +161,8 @@
     width: 20%;
     margin-bottom: 2rem;
   }
+
+  .hero-text {
+    padding: 0;
+  }
 }
