@@ -1,0 +1,271 @@
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+* */
+
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff8cd;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 8rem;
+  border-radius: 100%;
+}
+
+.logo-text {
+  font-size: 2.4rem;
+  color: #180a0a;
+}
+
+/**************************/
+/* NAVIGATION NEW*/
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #ff87ca;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #ff87ca;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #ffc4e1;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+/* STICKY NAVIGATION */
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.97);
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
+/**************************/
+/* HERO SECTION*/
+/**************************/
+
+.hero-section {
+  /* height: 100vh; */
+  padding: 1em 0 9.6rem 0;
+  background-color: #f54291;
+}
+
+.hero {
+  margin-top: 8rem;
+  max-width: 100%;
+}
+
+.hero-text {
+  padding: 0 6.4rem;
+}
+
+.gallery {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  /* padding: 1.6rem; */
+  padding-right: 6.4rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  border-radius: 12px;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/**************************/
+/* OUR PRODUCTS SECTION*/
+/**************************/
+
+.our-products {
+  background-color: #fff8cd;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.product-img {
+  border-radius: 10px;
+  height: 8rem;
+  margin: 2.5rem;
+}
+
+.our-products-color {
+  color: #f54291;
+}
+
+/**************************/
+/* MIssion Section*/
+/**************************/
+
+.our-mission {
+  background-color: #f54291;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.mission-text {
+  font-size: 1.8rem;
+  color: #eaeaea;
+  padding-right: 3.2rem;
+}
+
+.mission-image {
+  width: 100%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+
+.mission-img-container {
+  display: flex;
+  align-items: center;
+}
+
+/**************************/
+/* About Us Section*/
+/**************************/
+
+.about-us {
+  background-color: #fff8cd;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.aboutus-text {
+  font-size: 1.8rem;
+  color: #f54291;
+  padding-right: 3.2rem;
+}
+
+.aboutus-text-color {
+  color: #f54291;
+}
+
+.aboutus-image {
+  width: 80%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+
+.aboutus-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.aboutus-desc2 {
+  display: inline-block;
+  padding-top: 3rem;
+}
+
+/**************************/
+/* Contact US Section*/
+/**************************/
+
+.contact-us {
+  background-color: #f54291;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+}
+
+.contactus-text {
+  font-size: 1.8rem;
+  color: #eaeaea;
+  padding-right: 3.2rem;
+}
+
+.contactus-image {
+  width: 60%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+}
+
+.contactus-img-container {
+  display: flex;
+  align-items: center;
+}
+
+.contact-us-info {
+  display: inline-block;
+  margin-bottom: 3rem;
+}
+
+.testing {
+  margin: 8rem;
+}

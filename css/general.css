@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Does NOT work on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+* */
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
+
+/**************************/
+/* GENRAL REUSABLE COMPONENTS */
+/**************************/
+
+.container {
+  /* 1140px */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 700;
+  color: #eaeaea;
+  /* color: #45260a; */
+  /* color: #343a40; */
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-primary-sub {
+  font-size: 3.6rem;
+  line-height: 1.05;
+  /* padding-top: 4.8rem; */
+  margin-bottom: 4.8rem;
+  color: #ff87ca;
+}
+
+.heading-primary-sub2 {
+  font-size: 3.6rem;
+  line-height: 1.05;
+  /* padding-top: 4.8rem; */
+  margin-bottom: 4.8rem;
+  color: #eaeaea;
+}
+
+.heading-secondary {
+  padding-top: 4rem;
+  font-size: 2.4rem;
+  line-height: 1.2;
+  text-align: center;
+  /* margin-bottom: 9.6rem; */
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #ff87ca;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #eaeaea;
+}
+
+.navbar-brand:link,
+.navbar-brand:visited {
+  color: #ff87ca;
+}
+
+.navbar-brand:hover,
+.navbar-brand:active {
+  color: #eaeaea;
+}
