@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff8cd;
+  background-color: #fff;
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
@@ -119,7 +119,7 @@
 .hero-section {
   /* height: 100vh; */
   padding: 1em 0 9.6rem 0;
-  background-color: #f54291;
+  background-color: #f768a7;
 }
 
 .hero {
@@ -160,7 +160,7 @@
 /**************************/
 
 .our-products {
-  background-color: #fff8cd;
+  background-color: #fff;
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
 }
@@ -172,7 +172,7 @@
 }
 
 .our-products-color {
-  color: #f54291;
+  color: #f768a7;
 }
 
 /**************************/
@@ -180,7 +180,7 @@
 /**************************/
 
 .our-mission {
-  background-color: #f54291;
+  background-color: #f768a7;
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
 }
@@ -242,19 +242,19 @@
 /**************************/
 
 .about-us {
-  background-color: #fff8cd;
+  background-color: #fff;
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
 }
 
 .aboutus-text {
   font-size: 1.8rem;
-  color: #f54291;
+  color: #f768a7;
   padding-right: 3.2rem;
 }
 
 .aboutus-text-color {
-  color: #f54291;
+  color: #f768a7;
   margin-bottom: 8rem;
 }
 
@@ -284,7 +284,7 @@
 /**************************/
 
 .contact-us {
-  background-color: #f54291;
+  background-color: #f768a7;
   padding-top: 6.4rem;
   padding-bottom: 6.4rem;
 }
