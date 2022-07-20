@@ -223,6 +223,20 @@
   margin-bottom: 2rem;
 }
 
+.m-icon {
+  display: inline-block;
+  height: 3rem;
+  stroke: #fff8cd;
+  margin-right: 2rem;
+}
+
+.v-icon {
+  display: inline-block;
+  height: 3rem;
+  stroke: #fff8cd;
+  margin-right: 2rem;
+}
+
 /**************************/
 /* About Us Section*/
 /**************************/
